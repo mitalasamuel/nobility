@@ -1,5 +1,5 @@
 :root {
-  --lodge-green: #546254;
+  --lodge-green: #0b0d0b;
   --zambezi: #6d7789;
   --gorges: #be9d87;
   --grey: #5A5A5A;
@@ -1724,7 +1724,6 @@ html {
   font-size: 47px;
   width: 100%;
   padding-bottom: 18px;
-  letter-spacing: .72px;
   font-family: 'Aguila', sans-serif;
   font-weight: 400;
   text-transform: uppercase;
@@ -1737,8 +1736,7 @@ html {
   font-family: 'NeueMontrealRegular', sans-serif;
   padding-bottom: 22px;
   font-size: 16px;
-  line-height: 24px;
-  letter-spacing: .45px;
+
 }
 
 .about-content p:last-of-type {
@@ -1797,7 +1795,6 @@ html {
 .accommodation-content p {
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: .45px;
   font-family: 'NeueMontrealRegular', sans-serif;
 }
 
@@ -2996,20 +2993,12 @@ h2.is-inview .animated-text div {
   transition: none;
 }
 
-/*.split-heading, .split-content{opacity: 0;}*/
-.split-heading.has-animated,
-.split-content.has-animated {
-  opacity: 1;
-}
+
 
 /*.about .line:nth-child(2):after{content: ''; position: absolute; top: auto; bottom: 0; left: 0%; right: auto; width: 0; height: 1px; background-color: #a7674a; transition: 0.8s ease-in-out; transition-delay: 0.8s;}
 .split-heading.has-animated .line:nth-child(2):after{width: 58%;}*/
 /*.split-content .line, .split-heading .line {transition-duration: 0.5s; transition: 0.5s ease-out; transition-delay: 0.016s; opacity: 1;}*/
 
-
-.split {
-  display: inline-block
-}
 
 .whitespace {
   display: inline-block
@@ -3590,8 +3579,8 @@ h2.is-inview .animated-text div {
 
 .heading-item-content dfn {
   font-size: 14px;
-  line-height: 24px;
-  letter-spacing: .45px;
+  /* line-height: 24px; */
+  /* letter-spacing: .45px; */
   color: var(--sun);
   font-family: 'NeueMontrealRegular', sans-serif;
   text-transform: uppercase;
@@ -3627,15 +3616,6 @@ h2.is-inview .animated-text div {
   padding-right: 5px;
 }
 
-.heading-item-content p,
-.heading-item-content .split-content {
-  color: var(--grey);
-  font-family: 'NeueMontrealRegular', sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: .45px;
-  display: inline-block;
-}
 
 .heading-view-btn {
   display: -webkit-flex;
@@ -4757,7 +4737,7 @@ h2.is-inview .animated-text div {
 /* Start Journey Botswana Style */
 .botswana-page .hero-thumb::after {
   background-color: #000000;
-  opacity: .34;
+  opacity: 1;
 }
 
 .botswana-page .itinerary-slider-wrap .slick-next:before {
@@ -5971,9 +5951,7 @@ input#mc-embedded-subscribe {
   background: var(--cararra);
 }
 
-.featured-special .split-content .mask-up {
-  transition-delay: 0.0001s;
-}
+
 
 .botswana .package-main-btn a {
   top: 58px;
@@ -6300,7 +6278,6 @@ input#mc-embedded-subscribe {
 }
 
 .destination .discover-main-content-inner h2 {
-  max-width: 100%;
   line-height: 56px;
   margin-bottom: 24px;
 }
@@ -9636,7 +9613,7 @@ input:focus-visible {
     z-index: 9999;
   }
 
-  .accommodation-content p {
+  .accommodation-content p,.accommodation-content1 p {
     text-align: left;
     font-size: 16px;
     line-height: 22px;
@@ -10326,8 +10303,8 @@ input:focus-visible {
 
   .heading-item-content p {
     font-size: 16px;
-    line-height: 24px;
-    letter-spacing: .45px;
+    /* line-height: 24px; */
+    /* letter-spacing: .45px; */
   }
 
   .heading-view-btn {
@@ -10990,7 +10967,6 @@ input:focus-visible {
     margin-bottom: 30px;
   }
 
-  .heading-item-content p span {}
 
 
   .dream-journey-thumb {
@@ -11151,7 +11127,7 @@ input:focus-visible {
   .zimbabwe-page .heading-item-content p {
     width: 100%;
     float: left;
-    display: block;
+    /* display: block; */
   }
 
   /* About Us Style */
